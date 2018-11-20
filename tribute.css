@@ -52,10 +52,10 @@ body {
     margin-bottom: 0px;
 }
 #title-div {
-    /* width: 600px; */
+    /* margin-left: auto;
+    margin-right: auto; */
     align-self: center;
-    /* margin-left: 80px;
-    margin-right: 80px; */
+    border-bottom: 5px;
     
 }
 #title-div p{
@@ -89,9 +89,7 @@ img {
     margin-right: auto;
     margin-bottom: 20px;
     margin-top: 0px;
-    border: var(--dark);
     border-radius: 5px;
-    /* box-shadow: var(--shadow); */
     grid-area: tribute-info;
 }
 #tribute-info p {
@@ -147,8 +145,8 @@ h3 {
 footer {
     text-align: center;
     margin-top: 10px;
-    background: var(--light);
-    color: var(--dark);
+    background: var(--dark);
+    color: var(--light);
     border-radius: 5px;
     box-shadow: var(--shadow);
     font-size: 1.1rem;
