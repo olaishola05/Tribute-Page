@@ -47,23 +47,15 @@ body {
  } 
 #title {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.9rem;
     padding: 5px;
     margin-bottom: 0px;
 }
 #title-div {
-    /* margin-left: auto;
-    margin-right: auto; */
-    align-self: center;
-    border-bottom: 5px;
-    
-}
-#title-div p{
     text-align: center;
-    font-size: 1.0rem;
-    font-style: italic;
-    text-justify: auto;
+    margin-bottom: 5px;
 }
+
 #img-div{
     grid-area: img-div;
     display: flex;
@@ -90,56 +82,37 @@ img {
     margin-bottom: 20px;
     margin-top: 0px;
     border-radius: 5px;
+    border: 0.1px solid gray;
+    border-radius: 10px;
     grid-area: tribute-info;
 }
-#tribute-info p {
+
+#tribute-info dl {
     margin: 10px;
     font-size: 1.1rem;
     text-align: justify;
-    margin: 0px 15px 0px 15px;
-    padding: 5px;
 }
 
-h3 {
-    margin-left: 15px;
-    color: var(--dark);
-    font-size: 1.5rem;
-    margin-bottom: 0px;
-    margin-top: 2px;
+dt {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
+
 #quote {
     font-style: italic;
     font-size: 1.3rem;
     width: 82%;
     margin-left: auto;
     margin-right: auto;
-    /* background: whitesmoke; */
     grid-area: quote;
 }
-#link {
+#main p {
     font-size: 1.1rem;
-    margin: 0px 0px 0px 15px;
     font-style: normal;
 }
-.btn {
-    height: 40px;
-    border: 0px;
-    width: 100px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    box-shadow: var(--shadow);
-}
 
-.btn-a {
-    background: var(--dark);
-    color: var(--light);
-}
-
-.btn a:hover {
-    background: var(--light);
-    color: var(--dark);
+a {
+    text-decoration: none;
 }
 
 footer {
