@@ -65,8 +65,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* height: 400px; */
-    /* width: 300px; */
+    width: 70%;
+    /* height: 700px; */
     padding-top: 0px;
     border-radius: 5px;
 }
